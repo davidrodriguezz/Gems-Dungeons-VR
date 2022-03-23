@@ -1,0 +1,740 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1586; Version 2009; 64bit' Language: 'es' Physical Memory: 8045 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/MASTER/Desktop/Proyecto Final Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56701
+Successfully changed project path to: C:/Users/MASTER/Desktop/Proyecto Final Unity
+C:/Users/MASTER/Desktop/Proyecto Final Unity
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 107.58 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 3.45 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MASTER/Desktop/Proyecto Final Unity/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001876 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.70 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.321 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.140426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.70 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 2221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.6 MB.
+System memory in use after: 106.1 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 6.685800 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.450700 ms MarkObjects: 5.031800 ms  DeleteObjects: 0.553200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof_pillar.prefab
+  artifactKey: Guid(88e9169a6e1a34d43a3188cf129af93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof_pillar.prefab using Guid(88e9169a6e1a34d43a3188cf129af93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33242a527390f2a506110223525719db') in 0.258149 seconds 
+  Import took 0.265726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_window_wall.prefab
+  artifactKey: Guid(7a63c9abd174b4847a3c0d7ad1f68b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_window_wall.prefab using Guid(7a63c9abd174b4847a3c0d7ad1f68b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e6e0975227d7487d9ee7d58d5fad45') in 0.109745 seconds 
+  Import took 0.115012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_sarcophagi.prefab
+  artifactKey: Guid(222dc4e090943b240b9a0d017908d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_sarcophagi.prefab using Guid(222dc4e090943b240b9a0d017908d3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3c3148a3f21ddb2c2003209b4b401d') in 0.041734 seconds 
+  Import took 0.044991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_wall.prefab
+  artifactKey: Guid(615688eb22692db418c6f8646a5b507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_wall.prefab using Guid(615688eb22692db418c6f8646a5b507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d1cea5c2fd44569633db884b4426ba') in 0.032366 seconds 
+  Import took 0.036138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_pillar.prefab
+  artifactKey: Guid(9f7a43d334ccc5b49a8011098b932e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_pillar.prefab using Guid(9f7a43d334ccc5b49a8011098b932e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872d92e0b37e41db8aa70cdbca320bf4') in 0.027064 seconds 
+  Import took 0.030743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms
+  artifactKey: Guid(e267f109c3f7f564daf9776616437a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms using Guid(e267f109c3f7f564daf9776616437a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2786e73dc4fbe63eccfb380fb8f8b7e6') in 0.008872 seconds 
+  Import took 0.014432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Dungeon Floor Traps
+  artifactKey: Guid(3daad4eb04afa6a46a020fb4f6ac1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Floor Traps using Guid(3daad4eb04afa6a46a020fb4f6ac1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc33d40bbb16e2a4cdcaf141d84218b') in 0.016589 seconds 
+  Import took 0.020697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/donjon
+  artifactKey: Guid(f07e44c290fcbc445b21db08e15403a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/donjon using Guid(f07e44c290fcbc445b21db08e15403a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd49a59c5f10861ef6f5cea32e0ff22') in 0.008499 seconds 
+  Import took 0.011927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Crypt Dungeon Environment
+  artifactKey: Guid(7ca8a2231f3f2b143937e02e22e4f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment using Guid(7ca8a2231f3f2b143937e02e22e4f77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c26e86c36e1711ef7bdbdc86379c5') in 0.005791 seconds 
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt
+  artifactKey: Guid(3069c2c44f6031a4fa8e9bc2f9bee2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt using Guid(3069c2c44f6031a4fa8e9bc2f9bee2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597ded1dff2a1047c20676d6bcd73ae5') in 0.005934 seconds 
+  Import took 0.009296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs
+  artifactKey: Guid(f606e285bac37474097b51ae4a03754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs using Guid(f606e285bac37474097b51ae4a03754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16f8235e35051aff1ec6583d014ac8b') in 0.006045 seconds 
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_door.prefab
+  artifactKey: Guid(44854037fca6b6046a63c21383b8939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_door.prefab using Guid(44854037fca6b6046a63c21383b8939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6d8fe2da1cce48d5d88a2414900e22') in 0.021786 seconds 
+  Import took 0.025241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/DungeonTraps
+  artifactKey: Guid(88cddfdc1ed2e8b4d93ae1917fc6baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DungeonTraps using Guid(88cddfdc1ed2e8b4d93ae1917fc6baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fed0945e4494ad77a38dc5a35e00b70') in 0.007845 seconds 
+  Import took 0.011610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_chandelier.prefab
+  artifactKey: Guid(8da19fac2d7b4534895cdd95853c048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_chandelier.prefab using Guid(8da19fac2d7b4534895cdd95853c048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e629107ff456f551bb69f20f45c3d') in 0.034573 seconds 
+  Import took 0.038168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof.prefab
+  artifactKey: Guid(7d51fcf4d5425c64c84512b307b283c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crypt Dungeon Environment/Rooms/Crypt/Prefabs/crypt_roof.prefab using Guid(7d51fcf4d5425c64c84512b307b283c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737fe9466e963ac987822a43353227a7') in 0.205575 seconds 
+  Import took 0.209998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.602324 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2f06c4a03e1f4e643b1f4155d0646080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2f06c4a03e1f4e643b1f4155d0646080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaa66590632a892217974b7492beaa7') in 0.007111 seconds 
+  Import took 0.010885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.267352 seconds.
+  path: Assets/SineVFX
+  artifactKey: Guid(7fd64926a196fc24ab0d8231fe6b3c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX using Guid(7fd64926a196fc24ab0d8231fe6b3c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027498057643bec833140a3a0046024e') in 0.007208 seconds 
+  Import took 0.011355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.753619 seconds.
+  path: Assets/SineVFX/TranslucentCrystals
+  artifactKey: Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals using Guid(0c6b8e5d60d9fa44381a5a682ff8562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77ef77cb3e633836fca020d6b4d8ccd') in 0.139011 seconds 
+  Import took 0.143198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.258074 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs
+  artifactKey: Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs using Guid(57ba1372d1301cc4fb18ae9042873fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5aff6ff767c2a07c4e8adbbcfb802b3') in 0.003759 seconds 
+  Import took 0.007442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063857 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c67678467c36499bff14fba3a6b165') in 0.270569 seconds 
+  Import took 0.274398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab
+  artifactKey: Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab using Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499ac16b5af82ed1d0a1d83b435fc886') in 0.270958 seconds 
+  Import took 0.274346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6463d9e85db0e852e9664d771775a') in 0.034056 seconds 
+  Import took 0.037845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2545f425777234289314528b903be76f') in 0.035829 seconds 
+  Import took 0.039635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab
+  artifactKey: Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab using Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5388e51bb8cfa9071ca8c865a838ccb6') in 0.040996 seconds 
+  Import took 0.044662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
+  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f77311b509605319314f5f34804e85e') in 0.035343 seconds 
+  Import took 0.039152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360f76780d6173f07e83f8b23bf7a687') in 0.032719 seconds 
+  Import took 0.037074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b08d6eeed3d892d4c21d849db688518') in 0.036567 seconds 
+  Import took 0.041939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d74fa43a0b7301b14e5e97ef224e0b') in 0.033020 seconds 
+  Import took 0.037331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77885340dcf7da10f49ea4c4f66d2cf1') in 0.034136 seconds 
+  Import took 0.039326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77885340dcf7da10f49ea4c4f66d2cf1') in 0.027039 seconds 
+  Import took 0.033544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.457557 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)
+  artifactKey: Guid(960a29f3249ba27408ae96a716c7a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free) using Guid(960a29f3249ba27408ae96a716c7a6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced8758c9e1e86ca724317bf0073d135') in 0.008648 seconds 
+  Import took 0.013018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.185570 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals
+  artifactKey: Guid(d5294b976d35e52409c2f08d3cc23786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals using Guid(d5294b976d35e52409c2f08d3cc23786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda6bab425caa4467b59e07b9d32e906') in 0.009707 seconds 
+  Import took 0.014956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056370 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
+  artifactKey: Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx using Guid(1fed90e8722c1334d9b51e0b56f26e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0508c81f86c71046663b0c67892aa41') in 0.169231 seconds 
+  Import took 0.172745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx
+  artifactKey: Guid(495bc5d65ef7c7a47b914d4dd69f0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_02.fbx using Guid(495bc5d65ef7c7a47b914d4dd69f0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deaf4aa53d0513e2c37afcc0539b706') in 0.016101 seconds 
+  Import took 0.019197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
+  artifactKey: Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx using Guid(b520dd2e830b53248a9a07d2d9f3f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb057acae9731aa841b667da9d15643e') in 0.040570 seconds 
+  Import took 0.044144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx
+  artifactKey: Guid(b31c62c35ced11c4383176ecffe930c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx using Guid(b31c62c35ced11c4383176ecffe930c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4032c2ca1475160b5785d2ae3d23cf5') in 0.021949 seconds 
+  Import took 0.025187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx
+  artifactKey: Guid(9c33f225c6ee98243a57390a7235bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx using Guid(9c33f225c6ee98243a57390a7235bd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229a3d05dfd21fdd7026a952cba4cde9') in 0.020610 seconds 
+  Import took 0.024466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx
+  artifactKey: Guid(b31c62c35ced11c4383176ecffe930c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx using Guid(b31c62c35ced11c4383176ecffe930c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4032c2ca1475160b5785d2ae3d23cf5') in 0.017410 seconds 
+  Import took 0.021350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx
+  artifactKey: Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall_Entrance.fbx using Guid(ce8cc834ba277844da67143cfc370fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b249365a7a4d928b315f5815527fc800') in 0.041794 seconds 
+  Import took 0.045305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx
+  artifactKey: Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx using Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33341007efd8cad0c7ab56511b3b1c1') in 0.019269 seconds 
+  Import took 0.022806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002651 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx
+  artifactKey: Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Originals/Lamp_01.fbx using Guid(80f5a41c215b19a4096e40d8852a7562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33341007efd8cad0c7ab56511b3b1c1') in 0.019451 seconds 
+  Import took 0.024513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.260962 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs
+  artifactKey: Guid(325d3c5532164bb4aa5dd8f24fa1df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs using Guid(325d3c5532164bb4aa5dd8f24fa1df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acf87b760eb76d821b8e878cb9158ed') in 0.003628 seconds 
+  Import took 0.008713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092874 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab
+  artifactKey: Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Door.prefab using Guid(9175d08a6bdddeb48afa15d1b714d918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04985fb86b989f5a5112c9ea52420fb3') in 0.099546 seconds 
+  Import took 0.103506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab
+  artifactKey: Guid(7c3ceb5b9a32b7a4a8d42d30223f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_01.prefab using Guid(7c3ceb5b9a32b7a4a8d42d30223f3c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3678b4663fab9ea935c51a458f7d01') in 0.016946 seconds 
+  Import took 0.020118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab
+  artifactKey: Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Lamp_02.prefab using Guid(7970c12d6b19a504fbc82353b8a43abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bade06a8dd1fef2540d97023da81bea') in 0.022089 seconds 
+  Import took 0.025615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab
+  artifactKey: Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Pillar.prefab using Guid(7c7baabdbc078cb4098d5880fc72c0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c97008381b9569adff7576896a43ba') in 0.020107 seconds 
+  Import took 0.023899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab
+  artifactKey: Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Floor.prefab using Guid(e348e7143b6247b488737e4be26fb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fb3b834405253ba07147e76beb2f1e') in 0.023416 seconds 
+  Import took 0.027054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab
+  artifactKey: Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall.prefab using Guid(3ad7a1cffb2556547a8b7e60fd320431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97507d191ce41a037a992bf607bf57f8') in 0.017571 seconds 
+  Import took 0.021522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab
+  artifactKey: Guid(49a5f24a081cbbc44bd23d76c2869723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Prefabs/Wall_Entrance.prefab using Guid(49a5f24a081cbbc44bd23d76c2869723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7c70c938aba90a735340a28b193d95') in 0.029539 seconds 
+  Import took 0.033235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.173266 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Demo
+  artifactKey: Guid(9669ff7bf5e8fe546b575a798960b0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Demo using Guid(9669ff7bf5e8fe546b575a798960b0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2709b5206134bcaf0a5d168536ab472b') in 0.006351 seconds 
+  Import took 0.009825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.229342 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene
+  artifactKey: Guid(71c5b9e24fd2f654b8cf958e198a0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene using Guid(71c5b9e24fd2f654b8cf958e198a0df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da9e36eac6b8842293ae5decad5a99') in 0.006657 seconds 
+  Import took 0.010068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.769194 seconds.
+  path: Assets/StylizedHandPaintedDungeon(Free)/Demo/Assets_Preview
+  artifactKey: Guid(b2763044381781f4d88d7583ce7015d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedHandPaintedDungeon(Free)/Demo/Assets_Preview using Guid(b2763044381781f4d88d7583ce7015d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ad13733ec6befc92253881dcd22fab') in 0.006288 seconds 
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.105536 seconds.
+  path: Assets/Triple Dungeon Pack
+  artifactKey: Guid(02fc80bec8f4e3f4cb2e7051279a0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack using Guid(02fc80bec8f4e3f4cb2e7051279a0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a72514bea27bb902f5d3beccf4ac236') in 0.007005 seconds 
+  Import took 0.011055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.226599 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon
+  artifactKey: Guid(2fc3547147cffda4b92bcb4535753f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon using Guid(2fc3547147cffda4b92bcb4535753f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e901a1b5f31115c8f3d33373fc2942') in 0.009377 seconds 
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064980 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/red_dungeon.fbx
+  artifactKey: Guid(9889117518dff7b42806ad82249545f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/red_dungeon.fbx using Guid(9889117518dff7b42806ad82249545f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637fa6138ec29576b2f5109486a44d0f') in 0.377034 seconds 
+  Import took 0.382107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.491843 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs
+  artifactKey: Guid(bf4045b5ce79dcb45a276f15d64818cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs using Guid(bf4045b5ce79dcb45a276f15d64818cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58bdda799769d4558fcf7a6e9407ece') in 0.008133 seconds 
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.379672 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds
+  artifactKey: Guid(921cf2c7b244095448a97877dac4b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds using Guid(921cf2c7b244095448a97877dac4b493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07efbff7ebec5cb421eaa6650684197') in 0.006873 seconds 
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079431 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01 1.prefab
+  artifactKey: Guid(2f330e5a20ec25a45817fb6aee9ffa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01 1.prefab using Guid(2f330e5a20ec25a45817fb6aee9ffa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf5b6d8b2cbe668f8f15793094a47d4') in 0.015990 seconds 
+  Import took 0.019368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_06.prefab
+  artifactKey: Guid(8d25018933cc6c5409311a83532a16cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_06.prefab using Guid(8d25018933cc6c5409311a83532a16cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507d2c4085086ef7a76554ae855fd874') in 0.015781 seconds 
+  Import took 0.019326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_02.prefab
+  artifactKey: Guid(5813cb44a31a2a64c9007dfbb0424831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_02.prefab using Guid(5813cb44a31a2a64c9007dfbb0424831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257569220534ca852f8516508f37b350') in 0.017908 seconds 
+  Import took 0.021326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_05.prefab
+  artifactKey: Guid(cb8aa44ba609dc94f9104adf6ac85dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_05.prefab using Guid(cb8aa44ba609dc94f9104adf6ac85dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8191b74296635b6eb24b6fd062de81c') in 0.024594 seconds 
+  Import took 0.027949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01_002.prefab
+  artifactKey: Guid(85cc7d0cb9686794e9b6087018edb02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01_002.prefab using Guid(85cc7d0cb9686794e9b6087018edb02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f96186d84dd99cdfeb85184d1e1ad55') in 0.020621 seconds 
+  Import took 0.024236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01_001.prefab
+  artifactKey: Guid(4d5f4bbb0403db34c83a4daff12950bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01_001.prefab using Guid(4d5f4bbb0403db34c83a4daff12950bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3058aace7fcc55d42b6a3c59f91475') in 0.022011 seconds 
+  Import took 0.025642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_04.prefab
+  artifactKey: Guid(f134d7e3a36950c48bd4500b73491016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_04.prefab using Guid(f134d7e3a36950c48bd4500b73491016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f57aebc5432e0a4604b07716af8be1b') in 0.020492 seconds 
+  Import took 0.025265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/stairs.prefab
+  artifactKey: Guid(950172111f7dff34baa40e6caddf39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/stairs.prefab using Guid(950172111f7dff34baa40e6caddf39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123790b5c12e3f97cc1e1dc8790b3fb9') in 0.017987 seconds 
+  Import took 0.023248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_03.prefab
+  artifactKey: Guid(2495032bd10c5204f9dd2956657d4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_03.prefab using Guid(2495032bd10c5204f9dd2956657d4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451849891daa516cf122e0bec79680e5') in 0.018458 seconds 
+  Import took 0.022076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01.prefab
+  artifactKey: Guid(31e886e829cf6e74995556552f6894ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Red Dungeon/prefabs/grounds/ground_01.prefab using Guid(31e886e829cf6e74995556552f6894ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245f140cb11f312826e0d3196c014869') in 0.045681 seconds 
+  Import took 0.049349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.117454 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007564 seconds 
+  Import took 0.011629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.692709 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(4c94bfee44f745e42a730063fdade0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(4c94bfee44f745e42a730063fdade0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd149fe935653a902e28676a07c88f8bd') in 0.013071 seconds 
+  Import took 0.016911 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 106.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 2.980300 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.611800 ms  DeleteObjects: 0.067100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\MASTER\Desktop\Proyecto Final Unity\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.2 MB.
+System memory in use after: 106.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2716.
+Total: 3.080200 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.101400 ms MarkObjects: 2.630100 ms  DeleteObjects: 0.071700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.909440 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(dec1b6af69bd71e469ca5a7a526554a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(dec1b6af69bd71e469ca5a7a526554a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea435c7ef6aabaca12b1929852dda36') in 0.010574 seconds 
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.746824 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.025765 seconds 
+  Import took 0.030820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.483832 seconds.
+  path: Assets/Scenes/ProyectoFinal.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ProyectoFinal.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e12cb5e9e42599969ff36d800bd9ecd') in 0.007447 seconds 
+  Import took 0.010800 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
