@@ -1461,7 +1461,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.4
       source: 6
-      resolvedPath: C:\Users\MASTER\Desktop\ProyectoFinalUnity\Proyecto Final Unity\Library\PackageCache\com.valvesoftware.unity.openvr@44117a521a92-1648650807255
+      resolvedPath: C:\Users\MASTER\Desktop\ProyectoFinalUnity\Proyecto Final Unity\Library\PackageCache\com.valvesoftware.unity.openvr@44117a521a92-1649017604018
       assetPath: Packages/com.valvesoftware.unity.openvr
       name: com.valvesoftware.unity.openvr
       displayName: OpenVR XR Plugin
@@ -3919,7 +3919,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637842476072552928
+        ticks: 637846144040178334
       m_Hash: 2919789393
 m_ProjectPath: C:/Users/MASTER/Desktop/ProyectoFinalUnity/Proyecto Final Unity/Packages
 m_EditorVersion: 2020.3.13f1 (71691879b7f5)
