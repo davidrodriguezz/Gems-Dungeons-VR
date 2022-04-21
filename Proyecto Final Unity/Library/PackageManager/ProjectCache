@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842478986822264
-    m_Hash: 2585209763
+      ticks: 637861279650531168
+    m_Hash: 2521846965
   m_LockFileStatus:
     m_FilePath: C:/Users/MASTER/Desktop/ProyectoFinalUnity/Proyecto Final Unity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637842478986943123
-    m_Hash: 2200165689
+      ticks: 637861279650541143
+    m_Hash: 280050074
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -77,6 +77,7 @@ m_PackageAssets:
         - 1.14.12
         - 1.14.13
         - 1.14.15
+        - 1.14.16
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -84,6 +85,7 @@ m_PackageAssets:
         - 1.15.12
         - 1.15.13
         - 1.15.15
+        - 1.15.16
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -107,6 +109,7 @@ m_PackageAssets:
         - 1.14.12
         - 1.14.13
         - 1.14.15
+        - 1.14.16
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -1144,6 +1147,7 @@ m_PackageAssets:
         - 3.0.0-pre.2
         - 3.0.0-pre.4
         - 3.0.0
+        - 3.0.1
         compatible:
         - 1.9.1
         - 1.10.0-preview.1
